@@ -1,0 +1,10 @@
+name = "autoclaimer-deals"
+compatibility_date = "2026-07-09"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".open-next/assets"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "deals-db"
+database_id = "local-deals-db-id"
+migrations_dir = "drizzle/migrations"

@@ -32,6 +32,13 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+*.key
+*.db
+*.sqlite
+
+# cloudflare and open-next edge artifacts
+.wrangler
+.open-next
 
 # vercel
 .vercel
